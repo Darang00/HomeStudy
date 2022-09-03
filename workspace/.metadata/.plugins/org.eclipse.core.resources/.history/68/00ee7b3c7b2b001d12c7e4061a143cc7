@@ -1,0 +1,14 @@
+package sec03.exam01;
+
+public class CarExample {
+
+	public static void main(String[] args) {
+		
+		//생성자 호출
+		Car mycar = new Car("White", 2500);
+		
+		
+
+	}
+
+}

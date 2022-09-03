@@ -1,0 +1,19 @@
+package sec02.exam02;
+
+public class FieldInitValue {
+	//Field
+	byte byteField;
+	short shortField;
+	int intField;
+	long longFIeld;
+	
+	boolean booleanField;
+	char charFIeld;
+	
+	float floatField;
+	double doubleField;
+	
+	int[] arrField;
+	String referenceField;
+
+}

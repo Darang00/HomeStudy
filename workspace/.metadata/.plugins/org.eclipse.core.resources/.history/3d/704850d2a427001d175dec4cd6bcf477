@@ -1,0 +1,5 @@
+package sec01.exam01;
+
+public class Student { // 라이브러리 클래스 > 실행용 클래스에서 이용할 목적으로 설계된다
+
+}
