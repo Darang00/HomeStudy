@@ -1,0 +1,11 @@
+package sec02.exam01;
+
+public class Car { // Library class (resource)
+	// Field
+	String company = "KIA";
+	String model = "SUV";
+	String colour = "black";
+	int maxSpeed = 420;
+	int speed;
+
+}

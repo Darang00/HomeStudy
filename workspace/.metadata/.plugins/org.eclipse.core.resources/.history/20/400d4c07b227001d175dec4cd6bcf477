@@ -1,0 +1,14 @@
+package sec02.exam03;
+
+public class VIPMember { // Conducting class
+
+	public static void main(String[] args) {
+		
+		Member VIPMenber = new Member();
+		
+		System.out.println("Member name is " + VIPMember.memberName);
+		
+
+	}
+
+}

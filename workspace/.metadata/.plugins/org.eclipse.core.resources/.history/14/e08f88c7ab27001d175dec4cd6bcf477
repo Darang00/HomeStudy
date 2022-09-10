@@ -1,0 +1,11 @@
+
+public class VariableTypes {
+	int instanceVariables;
+	static int classVariables }
+
+	public static void method(String parameter args) {
+		
+
+	}
+
+
