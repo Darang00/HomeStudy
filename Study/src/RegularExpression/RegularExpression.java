@@ -56,9 +56,7 @@ package RegularExpression;
 public class RegularExpression {
 	String regExp = "^01(?:0|1|[6-9])[.-]?(\\d{3}|\\d{4})[.-]?(\\d{4})$";
 	String mobNum1 = "01040430164";
-	System.out.println("mobile number 테스트 결과: " + mobileNum1.matches(regExp));
-	
-
+	//System.out.println("mobile number 테스트 결과: " + mobileNum1.matches(regExp));
 }
 
 /*
