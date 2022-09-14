@@ -17,4 +17,9 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
+
+	void move() {
+		// TODO Auto-generated method stub
+		
+	}
 }
