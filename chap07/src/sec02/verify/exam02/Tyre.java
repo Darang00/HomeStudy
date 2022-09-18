@@ -5,5 +5,4 @@ public class Tyre {
 	public void run() {
 		System.out.println("A common tyre is running");
 	}
-
 }
