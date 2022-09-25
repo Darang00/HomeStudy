@@ -14,11 +14,11 @@ public class HashMapExample {
 		map.put("Dayeong", 100);
 		map.put("Jisu", 95);
 		map.put("Hyeju", 98);
-		map.put("Dayoeng", 90); //"Dayeong" 키가 같기 때문에 제일 마지막에 저장한 값으로 대체
+		map.put("Dayeong", 90); //"Dayeong" 키가 같기 때문에 제일 마지막에 저장한 값으로 대체
 		System.out.println("The total Entry number is " + map.size()); //저장된 총 Entry 수 얻기		
 		
 		//객체 찾기
-		System.out.println("\tDayeong: " + map.get("Dayoeng")); //이름(key)로 점수(value) 검색
+		System.out.println("\tDayeong: " + map.get("Dayeong")); //이름(key)로 점수(value) 검색
 		System.out.println();
 		
 		//객체를 하나씩 처리
