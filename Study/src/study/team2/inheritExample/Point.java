@@ -4,6 +4,11 @@ public class Point {
 	//Field
 	private int x, y;
 	
+	//Basic Constructor
+	public Point() {
+		
+	}
+	
 	//Constructor
 	public Point(int x, int y) {
 		this.x = x;
