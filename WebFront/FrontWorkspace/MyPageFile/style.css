@@ -1,0 +1,267 @@
+*{
+    font-family: 'Nanum Pen Script', cursive;
+    list-style: none; /* li 태그를 사용하게 되면 기본적으로 불릿이 생성되는데, 불릿 없애는 명령어 */
+    text-decoration: none; /* 텍스트 디자인의 기본 값으로, 밑줄이 없는 보통 글자 */
+    border-collapse: collapse; /* border-collapse는 표(table)의 테두리와 셀(td)의 테두리 사이의 간격을 어떻게 처리할 지 정하는데, collapse는  표(table)의 테두리와 셀(td)의 테두리 사이의 간격을 없앱니다. 겹치는 부분은 한 줄로 나타낸다 */
+    margin:0; /* 위 좌 아래 우 바깥쪽 여백 : 0 */
+    padding: 0px; /* 위 좌 아래 우 안쪽 여백: 0px */
+    color:#000;
+} 
+
+h1{
+    font-size: 60px;
+   
+}
+
+.contents{
+    font-size: 45px;
+    font-weight: normal; /* font-weight: 글자 굵기 조절하는 속성 */
+}
+
+.contents1{
+    font-size: 25px;
+}
+.contents1_bold{
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+}
+
+.contents2{
+    font-size: 20px;
+}
+
+.contents3{
+    font-size: 14px;
+    font-weight: 100; /* 100이라는 '수치', '100px' 아니고 */
+}
+
+.result{
+   font-size: 32px; 
+   font-size: border;
+}
+
+.intro_bg{
+    background-image:url("image/Lisbon.jpg");
+    width:100%;
+    height:1110px;
+    background-size: cover; /* 화면 확대 및 축소해도 배경 사징 여러개 안나오고 고정됨. 다른 요소들 크기만 변함 */
+}
+/* #lisbonpic{
+    width : 100%;
+} */
+
+.header{
+    display:flex;
+    width: 1350px;
+    margin: auto;
+    height: 86px;
+}
+
+.searchArea{
+    width:350px;
+    height:40px;
+    background: rgba(255, 255, 255, 0.503);
+    border-radius:5px;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+
+.searchArea > form > input{
+    border:none;
+    width: 280px;
+    height:40px;
+    background:rgba(255, 255, 255, 0);
+    color:#fff;
+    margin-left:5px;
+    padding: 7px;
+    font-size: 25px;
+
+}
+
+.searchArea > form > span{
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor:pointer;
+    font-size: 25px;
+}
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width:calc(1350px - 350px);
+}
+
+.nav > li{
+    margin-left: 84px;
+    font-size: 35px;
+}
+
+.nav > li > a{
+    color:#fff;
+}
+
+.amount{
+    position: relative; /* 현재 위치 */
+    top: -66px; /*위에서 선언한 '현재위치'에서 위로 66만큼! ('-' 가 '위로' 의미) */
+    display:flex;
+    width: 1280px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 앞에 px 3개는 좌, 아래, 우의 그림자 크기, rgba는 그림자 색이랑 흩뿌려지는 정도 */
+    margin: auto;
+}
+
+.amount > li {
+    flex: 1;
+    height: 132px;
+    /* background: rgb(177, 177, 255); */
+}
+
+.amount > li > div{
+    text-align: center;
+    /* background: green; */
+   /* border-right: 1px solid gray; */
+    margin-top: 37px;
+    height: 57px;
+}
+
+.amount > li:not(:last-child) > div{ /* 마지막 칸 제외하고(예외처리) */ /* li랑 not 사이에 : 쓸 때 띄어쓰기 하면 안된다. 에러난다*/
+    border-right: 1px solid #ababab7e; /* 'border'는 테두린데, right, 즉 오른쪽변만 표시하겠다 */
+}
+
+.intro_text{
+    width:100%;
+    margin: 231px auto 231px auto; /* 순서대로 상(231px), 우(auto), 하(231px), 좌(auto) */
+    text-align: center; /*글자를 가운데로 배치 */
+    text-shadow: 3px 3px 5px rgb(26, 121, 255); /* text-shadow: offset-x[그림자 수평 거리(필수)] offset-y[그림자 수직거리(필수)] blur-radius[그림자 흐림 정도(default: 0)] color[그림자 색(default 가능)] */
+
+}
+.intro_text> h1,
+.intro_text> h4{
+    color:#fff;
+}
+
+/* main_text0 */
+.main_text0{
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background: rgba(138, 200, 255, 0.515);
+}
+
+.main_text0 > h1{
+    padding-top: 116px;
+    text-align: center;
+    /* background:skyblue; */
+    
+}
+
+.main_text0 > .contents1{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    /* background: orange; */
+    margin: auto;
+}
+
+.icons > li{
+    flex: 1;
+    background: white;
+    margin-top: 49px;
+    height: 302px;
+    text-align:center;
+    
+}
+
+.icons > li > .icon_img{
+    margin-top: 35px;
+}
+
+.icons > li > .icon_img > img{
+    width: 30%;
+    height: 30%;
+}
+
+.icons > li:not(:last-child){
+    margin-right: 20px;
+}
+
+.icons .contents2{
+    font-size: 22px;
+    width: auto;
+    margin:auto;
+    letter-spacing: 0px;
+}
+
+.more{
+    width:100px;
+    height: 30px;
+    background:rgba(246, 98, 0, 0.946);
+    color: #fff;
+    margin: 25px auto;
+    line-height: 30px;
+    font-size: 20px;
+}
+/* main_text */
+.main_text1 {
+    width: 100%;
+    height: 659px;
+}
+
+.main_text1 > h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main_text1 > .contents1{
+    text-align:center;
+}
+
+.service{
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    height: 427px;
+    /* background: skyblue; */
+}
+
+.barcelona_pic {
+    padding-right: 20px;
+}
+
+.barcelona_pic > img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.service > contents2 {
+    padding: 20px;
+}
+
+.service > contents2 > h2{
+    margin-bottom: 27px;
+}
+
+/* main_text2 */
+.main_text2 {
+    background-image: url("image/NightBunker.jpg");
+    width:100%;
+    height:1110px;
+    background-size: cover;
+}
+
+.main_text2 > ul{
+    display: flex;
+}
+
+.main_text2 > ul > li{
+   flex: 1;
+   text-align: center;
+}
