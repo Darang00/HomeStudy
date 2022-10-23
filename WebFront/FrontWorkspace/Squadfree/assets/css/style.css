@@ -315,21 +315,21 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 65px;
   font-weight: 900;
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: -2px 0 3px #1c333d;
+  text-shadow: -3px 0 3px #12232b;
 }
 
 #hero h2 {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 27px;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: 900;
-  text-shadow: -1px 0 2px #2f4d5a;
+  text-shadow: -2px 0 2px #14485e;
   padding-top: 15px;
 }
 
@@ -506,26 +506,27 @@ section {
 }
 
 .about .barcelona_pic img{
-  width: 85%;
-  height: 85%;
+  width: 80%;
+  height: 80%;
   
 }
 
 .about .content p {
-   margin-bottom: 30px; 
+   margin-bottom: 25px; 
 }
 
 .about .row{
   position: relative;
-  right: -60px;
+  right: -50px;
+  padding-right: 10px;
 }
 
 .about .row h4{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .about .row p{
-  font-size: 27px;
+  font-size: 23px;
 }
 
 .about .col-md-6 {
@@ -569,7 +570,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.my_goal .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -580,7 +581,7 @@ section {
   z-index: 1;
 }
 
-.services .icon-box::before {
+.my_goal .icon-box::before {
   content: "";
   position: absolute;
   background: white;
@@ -592,45 +593,45 @@ section {
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
+.my_goal .icon-box:hover::before {
   background: #67b0d1;
   top: 0;
   border-radius: 0px;
 }
 
-.services .icon {
+.my_goal .icon {
   margin-bottom: 15px;
 }
 
-.services .icon i {
+.my_goal .icon i {
   font-size: 48px;
   line-height: 1;
   color: #67b0d1;
   transition: all 0.3s ease-in-out;
 }
 
-.services .title {
+.my_goal .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.my_goal .title a {
   color: #111;
 }
 
-.services .description {
+.my_goal .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a,
-.services .icon-box:hover .description {
+.my_goal .icon-box:hover .title a,
+.my_goal .icon-box:hover .description {
   color: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.my_goal .icon-box:hover .icon i {
   color: #fff;
 }
 
