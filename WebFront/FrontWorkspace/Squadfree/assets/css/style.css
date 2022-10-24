@@ -850,6 +850,8 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   background: #fff;
+  position:relative;
+  right: -23px;
 }
 
 .contact .php-email-form .error-message {
@@ -945,6 +947,26 @@ section {
     transform: rotate(360deg);
   }
 }
+
+/*---------------------------------------------------------------
+# Play Ground
+----------------------------------------------------------------*/
+#PlayGround {
+  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+  height: 1000px;
+
+}
+
+#div1 {
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  border: 1px solid #0d00ff;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
